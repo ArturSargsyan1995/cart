@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -20,34 +24,161 @@
                 <div class="bn__app__gift-content">
                     <div class="bn__app__gift-product">
                         <div class="bn__app__gift-product-block">
-                            <img src="./img-1.png" alt="">
-                            <h3>STAX Official Duffle Bag (Black)</h3>
-                            <input id="radio-1" type="radio" name="add_cart">
-                            <label for="radio-1"> </label>
+                            <a href="">
+                                <img src="./img-1.png" alt="">
+                                <h3>STAX Official Duffle Bag (Black)</h3>
+                            </a>
+                            <div class="bn__app__select">
+                                <div class="bn__app__select-active">
+                                    <div class="bn__app__option">Option 1</div>
+                                    <span class="bn__app__arrow"></span>
+                                </div>
+                                <div class="bn__app__options">
+                                    <div class="bn__app__option">Option 2</div>
+                                    <div class="bn__app__option">Option 3</div>
+                                    <div class="bn__app__option">Option 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">Learn more</a>
+                        
+                    </div>
+                    <div class="bn__app__gift-product">
+                        <div class="bn__app__gift-product-block">
+                            <a href="">
+                                <img src="./img-2.png" alt="">
+                                <h3>STAX Official Duffle Bag (Black)</h3>
+                            </a>
+                            <div class="bn__app__select">
+                                <div class="bn__app__select-active">
+                                    <div class="bn__app__option">Option 1</div>
+                                    <span class="bn__app__arrow"></span>
+                                </div>
+                                <div class="bn__app__options">
+                                    <div class="bn__app__option">Option 2</div>
+                                    <div class="bn__app__option">Option 3</div>
+                                    <div class="bn__app__option">Option 4</div>
+                                </div>
+                            </div>
                         </div>
                         <a href="#">Learn more</a>
                     </div>
                     <div class="bn__app__gift-product">
                         <div class="bn__app__gift-product-block">
-                            <img src="./img-2.png" alt="">
-                            <h3>STAX Official Duffle Bag (Black)</h3>
-                            <input id="radio-2" type="radio" name="add_cart">
-                            <label for="radio-2"> </label>
-                        </div>
-                        <a href="#">Learn more</a>
-                    </div>
-                    <div class="bn__app__gift-product">
-                        <div class="bn__app__gift-product-block">
-                            <img src="./img-3.png" alt="">
-                            <h3>STAX Official Duffle Bag (Black)</h3>
-                            <input id="radio-3" type="radio" name="add_cart">
-                            <label for="radio-3"> </label>
+                            <a href="">
+                                <img src="./img-3.png" alt="">
+                                <h3>STAX Official Duffle Bag (Black)</h3>
+                            </a>
+                            <div class="bn__app__select">
+                                <div class="bn__app__select-active">
+                                    <div class="bn__app__option">Option 1</div>
+                                    <span class="bn__app__arrow"></span>
+                                </div>
+                                <div class="bn__app__options">
+                                    <div class="bn__app__option">Option 2</div>
+                                    <div class="bn__app__option">Option 3</div>
+                                    <div class="bn__app__option">Option 4</div>
+                                </div>
+                            </div>
                         </div>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
+                <button>View full collection</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="bn__app__popup">
+        <div class="bn__app__popup-overlay"></div>
+        <div class="bn__app__popup-content">
+            <div class="bn__app__popup-close">
+                <span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L23 23" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M23 1L1 23" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </span>
+            </div>
+            <div class="bn__app__popup-slider swiper">
+            
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide bn__app__popup-slider-img">
+                      <img src="./5.png" alt="">
+                  </div>
+                  <div class="swiper-slide bn__app__popup-slider-img">
+                    <img src="./5.png" alt="">
+                  </div>
+                  <div class="swiper-slide bn__app__popup-slider-img">
+                    <img src="./5.png" alt="">
+                  </div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+              
+                <div class="swiper-button-prev">
+                    <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 0L0.743485 9.01917C0.332909 9.41922 0.324482 10.0764 0.724666 10.4868L10 20" stroke="#949494" stroke-width="3.11314" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 0L11.2565 9.01917C11.6671 9.41922 11.6755 10.0764 11.2753 10.4868L2 20" stroke="#949494" stroke-width="3.11314" stroke-linecap="round"/>
+                    </svg>
+                </div>
+              
+    
+    
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="bn__app__popup-info">
+                <div class="bn__app__popup-info-title">
+                    <h2>STAX Official Duffle Bag (Black)</h2>
+                </div>
+                <div class="bn__app__popup-info-subtitle">
+                    <h2>SAPPHIRE (BLUE)</h2>
+                </div>
+                <div class="bn__app__popup-info-reviews">
+                    <div class="bn__app__popup-info-reviews-icons">
+                        <svg width="58" height="10" viewBox="0 0 58 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.86261 0L6.14961 3.75107H9.72559L6.80884 6.05092L8.10735 10L4.86261 7.53299L1.61802 10L2.91654 6.05092L-0.000360489 3.75107H3.57562L4.86261 0Z" fill="#1E1E1C"/>
+                            <path d="M16.931 0L18.218 3.75107H21.7939L18.8772 6.05092L20.1757 10L16.931 7.53299L13.6864 10L14.9849 6.05092L12.068 3.75107H15.644L16.931 0Z" fill="#1E1E1C"/>
+                            <path d="M28.9993 0L30.2863 3.75107H33.8623L30.9456 6.05092L32.2441 10L28.9993 7.53299L25.7547 10L27.0533 6.05092L24.1364 3.75107H27.7123L28.9993 0Z" fill="#1E1E1C"/>
+                            <path d="M41.0677 0L42.3547 3.75107H45.9307L43.0139 6.05092L44.3124 10L41.0677 7.53299L37.8231 10L39.1216 6.05092L36.2047 3.75107H39.7807L41.0677 0Z" fill="#1E1E1C"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M54.424 3.75107L53.137 0L51.85 3.75107H48.2741L51.191 6.05092L49.8924 10L53.137 7.53299L56.3818 10L55.0833 6.05092L58 3.75107H54.424ZM55.4026 8.56542L53.1368 6.84266V1.53189L54.0523 4.20039H56.5388L54.4968 5.81058L55.4026 8.56542Z" fill="#1E1E1C"/>
+                        </svg>
+                    </div>
+                    <div class="bn__app__popup-info-reviews-title">
+                        <h3>3 reviews</h3>
+                    </div>
+                </div>
+                <div class="bn__app__popup-info-price">
+                    <p>$74.95 AUD</p>
+                    <p>$00.00 AUD</p>
+                </div>
+                <div class="bn__app__popup-info-select">
+                    <div class="bn__app__select ">
+                        <div class="bn__app__select-active">
+                            <div class="bn__app__option">Option 1</div>
+                            <span class="bn__app__arrow"></span>
+                        </div>
+                        <div class="bn__app__options">
+                            <div class="bn__app__option">Option 2</div>
+                            <div class="bn__app__option">Option 3</div>
+                            <div class="bn__app__option">Option 4</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bn__app__popup-info-button">
+                    <button>Get Free</button>
+                </div>
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
